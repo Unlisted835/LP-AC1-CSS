@@ -1,0 +1,77 @@
+html * {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header, footer {
+    width: 100vw;
+    height: 5vh;
+
+    background-color: lightgreen;
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /* RODAPÉ */
+    footer {
+        bottom: 0;
+    }
+    /* CABEÇALHO */
+    header {
+        top: 0;
+    }
+        header ul {
+            display: flex;
+            justify-content: center;
+        }
+            header ul li {
+                margin-left: 3vw;
+                font-weight: bold;
+            }
+        
+.sidebar, main {
+    position: fixed;
+    top: 5vh;
+    bottom: 5vh;
+}
+    /* MENU LATERAL */
+    .sidebar {
+        width: 20vw;
+        padding: 3vh;
+        background-color: lightsalmon;
+        left: 0
+    }
+        .sidebar ul li {
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+        }
+    /* SEÇÃO PRINCIPAL */
+    main {
+        width: 80vw;
+        padding: 2vh 10vh;
+        background-color: lightcyan;
+        right: 0
+    }   
+        main h1 {
+            margin-bottom: 2vh;
+        }
+        main p {
+            text-align: justify;
+        }
+
+/* COMUM */
+li {
+    list-style-type: none;
+}
+    li a {
+        text-decoration: none;
+        color: black;
+    }
+        li a:hover {
+            color: white;
+        }

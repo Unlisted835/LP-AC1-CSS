@@ -1,0 +1,51 @@
+html * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu_lateral {
+    height: 100vh;
+    width: 20vw;
+    padding: 2vw;
+    box-sizing: border-box;
+
+    background-color: lightcoral;
+    
+    position: fixed;
+    float: left;
+    left: 0;
+}
+    .menu_lateral li {
+        list-style-type: none;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        color: black;
+    }
+        .menu_lateral li a {
+            text-decoration: none;
+            color: black;
+        }
+            .menu_lateral li a:hover {
+                color: white;
+            }
+
+.bem_vindo {
+    height: 100vh;
+    width: 80vw;
+    padding: 2vw;
+    box-sizing: border-box;
+
+    position: fixed;
+    float: right;
+    right: 0;
+
+    background-color: lightblue;
+    
+    align-content: center;
+    text-align: center;
+
+}
+    .bem_vindo h1 {
+        margin-bottom: 2rem;
+    }
